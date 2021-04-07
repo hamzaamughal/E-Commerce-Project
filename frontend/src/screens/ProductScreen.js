@@ -64,9 +64,9 @@ const ProductScreen = ({ match }) => {
                                             <Row>
                                                 <Col>Qty</Col>
                                                 <Col>
-                                                    <Form.Control as='select' value={qty} onChange{(e) => setQty(e.target.value)}>
+                                                    {/* <Form.Control as='select' value={qty} onChange={(e) => setQty(e.target.value)}>
 
-                                                    </Form.Control>
+                                                    </Form.Control> */}
                                                 </Col>
                                             </Row>
                                         </ListGroup.Item>
